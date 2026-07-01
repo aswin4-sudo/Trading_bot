@@ -1,0 +1,94 @@
+2026-07-01 16:39:26 | ERROR    | trading_bot | Missing API credentials. Set BINANCE_API_KEY / BINANCE_API_SECRET or pass --api-key/--api-secret.
+2026-07-01 16:42:04 | ERROR    | trading_bot | Missing API credentials. Set BINANCE_API_KEY / BINANCE_API_SECRET or pass --api-key/--api-secret.
+2026-07-01 16:45:43 | ERROR    | trading_bot | Missing API credentials. Set BINANCE_API_KEY / BINANCE_API_SECRET or pass --api-key/--api-secret.
+2026-07-01 16:47:51 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 16:47:51 | ERROR    | trading_bot | Input validation failed: Invalid symbol 'BTCUSDT'. Expected a USDT-M futures pair, e.g. BTCUSDT.
+2026-07-01 16:49:12 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 16:49:12 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-01 16:49:12 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 16:49:12 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 16:49:14 | INFO     | trading_bot | Order response: orderId=18222805035 status=NEW executedQty=0.0000 avgPrice=None
+2026-07-01 16:49:14 | DEBUG    | trading_bot | Raw response payload: {'orderId': 18222805035, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJd65bf1a881263996518b8d', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782904755049}
+2026-07-01 16:53:25 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 16:53:25 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-01 16:53:25 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 65000.0, 'timeInForce': 'GTC'}
+2026-07-01 16:53:25 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 65000.0, 'timeInForce': 'GTC'}
+2026-07-01 16:53:26 | INFO     | trading_bot | Order response: orderId=18223545909 status=NEW executedQty=0.0000 avgPrice=None
+2026-07-01 16:53:26 | DEBUG    | trading_bot | Raw response payload: {'orderId': 18223545909, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJc199bc24c7725fb5746b32', 'price': '65000.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782905006745}
+2026-07-01 16:54:09 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 16:54:09 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-01 16:54:09 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 64000.0, 'stopPrice': 64500.0, 'timeInForce': 'GTC'}
+2026-07-01 16:54:09 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 64000.0, 'stopPrice': 64500.0, 'timeInForce': 'GTC'}
+2026-07-01 16:54:11 | ERROR    | trading_bot | Binance API rejected the order: APIError(code=-2021): Order would immediately trigger.
+2026-07-01 16:55:11 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 16:55:11 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-01 16:55:11 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 63000.0, 'stopPrice': 63500.0, 'timeInForce': 'GTC'}
+2026-07-01 16:55:11 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': 0.001, 'price': 63000.0, 'stopPrice': 63500.0, 'timeInForce': 'GTC'}
+2026-07-01 16:55:13 | ERROR    | trading_bot | Binance API rejected the order: APIError(code=-2021): Order would immediately trigger.
+2026-07-01 16:55:29 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 16:55:29 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-01 16:55:29 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP', 'quantity': 0.001, 'price': 67000.0, 'stopPrice': 66500.0, 'timeInForce': 'GTC'}
+2026-07-01 16:55:29 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP', 'quantity': 0.001, 'price': 67000.0, 'stopPrice': 66500.0, 'timeInForce': 'GTC'}
+2026-07-01 16:55:32 | INFO     | trading_bot | Order response: orderId=None status=None executedQty=None avgPrice=None
+2026-07-01 16:55:32 | DEBUG    | trading_bot | Raw response payload: {'algoId': 1000000121271825, 'clientAlgoId': 'x-Cb7ytekJdfd3fdfda594b9cd992d08', 'algoType': 'CONDITIONAL', 'orderType': 'STOP', 'symbol': 'BTCUSDT', 'side': 'BUY', 'positionSide': 'BOTH', 'timeInForce': 'GTC', 'quantity': '0.0010', 'algoStatus': 'NEW', 'triggerPrice': '66500.00', 'price': '67000.00', 'icebergQuantity': None, 'selfTradePreventionMode': 'EXPIRE_MAKER', 'workingType': 'CONTRACT_PRICE', 'priceMatch': 'NONE', 'closePosition': False, 'priceProtect': False, 'reduceOnly': False, 'createTime': 1782905131897, 'updateTime': 1782905131897, 'triggerTime': 0, 'goodTillDate': 0}
+2026-07-01 20:55:30 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 20:55:30 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-01 20:55:30 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 20:55:30 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 20:55:32 | INFO     | trading_bot | Order response: orderId=18265875362 status=NEW executedQty=0.0000 avgPrice=None
+2026-07-01 20:55:32 | DEBUG    | trading_bot | Raw response payload: {'orderId': 18265875362, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ17acf9f1ea6b0fa8378ec6', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782919532694}
+2026-07-01 20:56:13 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 20:56:13 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-01 20:56:13 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 65000.0, 'timeInForce': 'GTC'}
+2026-07-01 20:56:13 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 65000.0, 'timeInForce': 'GTC'}
+2026-07-01 20:56:14 | INFO     | trading_bot | Order response: orderId=18265984647 status=NEW executedQty=0.0000 avgPrice=None
+2026-07-01 20:56:14 | DEBUG    | trading_bot | Raw response payload: {'orderId': 18265984647, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJd381d250731fd55f824730', 'price': '65000.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782919574600}
+2026-07-01 21:28:19 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 21:28:19 | INFO     | trading_bot | Starting automated trading for BTCUSDT
+2026-07-01 21:29:30 | INFO     | trading_bot | Auto-trading stopped by user
+2026-07-01 21:30:07 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 21:30:07 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-01 21:30:07 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 21:30:07 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 21:30:08 | INFO     | trading_bot | Order response: orderId=18271766087 status=NEW executedQty=0.0000 avgPrice=None
+2026-07-01 21:30:08 | DEBUG    | trading_bot | Raw response payload: {'orderId': 18271766087, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ9a1b49e39f1344f1fa4932', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782921609201}
+2026-07-01 21:35:13 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 21:35:13 | INFO     | trading_bot | Starting automated trading for BTCUSDT
+2026-07-01 21:35:41 | INFO     | trading_bot | Auto-trading stopped by user
+2026-07-01 21:38:33 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 21:38:33 | INFO     | trading_bot | Starting automated trading for BTCUSDT
+2026-07-01 21:40:29 | INFO     | trading_bot | Auto-trading stopped by user
+2026-07-01 21:41:21 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 21:41:21 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-01 21:41:21 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 21:41:21 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 21:41:23 | INFO     | trading_bot | Order response: orderId=18273721489 status=NEW executedQty=0.0000 avgPrice=None
+2026-07-01 21:41:23 | DEBUG    | trading_bot | Raw response payload: {'orderId': 18273721489, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJdc83824a666762d5d815c6', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782922283299}
+2026-07-01 21:55:58 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-01 21:57:24 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-01 21:57:24 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 21:57:24 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 21:57:26 | INFO     | trading_bot | Order response: orderId=18276412023 status=NEW executedQty=0.0000 avgPrice=None
+2026-07-01 21:57:26 | DEBUG    | trading_bot | Raw response payload: {'orderId': 18276412023, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ99f52ceda3122cda459486', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782923246524}
+2026-07-01 22:07:54 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-02 00:01:52 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-02 00:03:06 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-02 00:03:06 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-02 00:03:06 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-02 00:03:07 | INFO     | trading_bot | Order response: orderId=18298305876 status=NEW executedQty=0.0000 avgPrice=None
+2026-07-02 00:03:07 | DEBUG    | trading_bot | Raw response payload: {'orderId': 18298305876, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJad8d0e17ae6526667b1e8c', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782930787637}
+2026-07-02 00:03:35 | ERROR    | trading_bot | Auto-trading API error: No module named 'bot.cli'
+2026-07-02 00:03:40 | ERROR    | trading_bot | Auto-trading API error: No module named 'bot.cli'
+2026-07-02 00:05:31 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-02 00:05:41 | INFO     | trading_bot | Starting automated trading for BTCUSDT
+2026-07-02 00:21:28 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-02 00:22:57 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-02 00:23:11 | INFO     | trading_bot | Starting automated trading for BTCUSDT
+2026-07-02 00:25:00 | DEBUG    | trading_bot | Initialized Binance Futures Testnet client (base_url=https://testnet.binancefuture.com)
+2026-07-02 00:25:00 | INFO     | trading_bot | Starting automated trading for BTCUSDT
+2026-07-02 00:25:01 | DEBUG    | trading_bot | Symbol validation passed: BTCUSDT
+2026-07-02 00:25:01 | INFO     | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-02 00:25:01 | DEBUG    | trading_bot | Raw request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-02 00:25:02 | INFO     | trading_bot | Order response: orderId=18302093610 status=NEW executedQty=0.0000 avgPrice=None
+2026-07-02 00:25:02 | DEBUG    | trading_bot | Raw response payload: {'orderId': 18302093610, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ97191563d8a26a9d5aac76', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1782932102399}
+2026-07-02 00:25:07 | INFO     | trading_bot | Auto-trading stopped by user
