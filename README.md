@@ -1,5 +1,4 @@
 
-```markdown
 # Trading Bot - Binance Futures Testnet
 
 A simplified Python trading bot for Binance USDT-M Futures Testnet with clean architecture, proper logging, and error handling.
